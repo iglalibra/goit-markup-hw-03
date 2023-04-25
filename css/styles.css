@@ -49,6 +49,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--iris);
+  margin-right: 76px;
 }
 
 .logo-part {
@@ -79,10 +80,15 @@ button {
   letter-spacing: 0.02em;
 }
 
+.contact:first-child {
+  margin-right: 40px;
+}
+
 .contact:hover,
 .contact:focus {
   color: var(--ocean);
 }
+
 /*main*/
 .main-title-box {
   background-color: var(--primary-color);
@@ -220,4 +226,27 @@ button {
   width: 1157px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.header-adress-list {
+  display: flex;
 }
