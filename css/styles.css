@@ -68,6 +68,7 @@ button {
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--primary-color);
+  padding: 24px 0;
 }
 
 .nav-link:hover,
