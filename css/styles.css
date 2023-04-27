@@ -40,6 +40,19 @@ button {
   cursor: pointer;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /*header*/
 
 .header {
@@ -54,8 +67,11 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--iris);
-  margin-right: 76px;
   display: inline-block;
+}
+
+.header-nav>.logo {
+  margin-right: 76px;
 }
 
 .logo-part {
@@ -63,6 +79,7 @@ button {
 }
 
 .nav-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
@@ -85,6 +102,7 @@ button {
   line-height: calc(24 / 16);
   color: var(--main-color);
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .contact:hover,
@@ -95,8 +113,7 @@ button {
 /*main*/
 .main-title-box {
   background-color: var(--primary-color);
-  padding-bottom: 188px;
-    padding-top: 188px;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -107,7 +124,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--total-white);
   max-width: 496px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -165,8 +182,7 @@ button {
 
 .team-section {
   background-color: var(--cloud);
-  padding-bottom: 120px;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .member {
@@ -202,8 +218,7 @@ button {
 .footer {
   background-color: var(--primary-color);
   height: 312px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -284,7 +299,6 @@ button {
   display: flex;
   align-items: center;
   margin-right: auto;
-  padding: 24px 0;
 }
 
 .header-adress-list {
