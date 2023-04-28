@@ -70,7 +70,7 @@ button {
   display: inline-block;
 }
 
-.header-nav>.logo {
+.header .logo {
   margin-right: 76px;
 }
 
@@ -221,7 +221,7 @@ button {
   padding: 100px 0;
 }
 
-.footer-logo {
+.footer .logo {
   margin-bottom: 16px;
 }
 
